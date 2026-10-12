@@ -1,0 +1,14 @@
+build/
+.vs/
+
+# vendor SDK material: never commit (headers, import libs, DLLs, licence)
+SGGK/
+SGGKLib/
+*.lib
+*.dll
+*.exe
+sggk.lic
+
+# corpus faces: regenerable via gen_corpus (fixed seed), not committed
+*.sgt
+*.step
